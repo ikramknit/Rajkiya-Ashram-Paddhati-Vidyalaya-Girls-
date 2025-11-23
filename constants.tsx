@@ -37,7 +37,7 @@ export const DEPARTMENT: BilingualText = {
 
 export const INTRO_TEXT: BilingualText = {
   en: "The construction of Rajkiya Ashram Paddhati Vidyalaya (Girls), Punwarka, Saharanpur began in 2008 and the school became operational in 2011. The total student capacity is 490. This school provides education, free uniforms, accommodation, daily essentials, study materials, sports, and computer facilities to girls from socially and economically weaker sections, and educationally deprived rural and urban areas.",
-  hi: "राजकीय आश्रम पद्धति विद्यालय (बालिका), पुनवारका, सहारनपुर का निर्माण 2008 में शुरू हुआ और विद्यालय 2011 में संचालित हुआ। कुल छात्र क्षमता 490 है। यह विद्यालय सामाजिक और आर्थिक रूप से कमजोर वर्गों और शैक्षिक रूप से वंचित ग्रामीण और शहरी क्षेत्रों की लड़कियों को शिक्षा, मुफ्त वर्दी, आवास, दैनिक आवश्यक वस्तुएं, अध्ययन सामग्री, खेल और कंप्यूटर सुविधाएं प्रदान करता है।"
+  hi: "राजकीय आश्रम पद्धति विद्यालय (बालिका), पुनवारका, सहारनपुर का निर्माण 2008 में शुरू हुआ और विद्यालय 2011 में संचालित हुआ। विद्यालय की कुल छात्र क्षमता 490 है। यह विद्यालय केवल सामाजिक, आर्थिक दृष्टि से कमजोर व शिक्षा से वंचित, ग्रामीण और शहरी क्षेत्रों की बालिकाओं को शिक्षा के साथ-साथ निशुल्क यूनिफार्म, आवास, दैनिक प्रयोग की सभी वस्तुए, अध्ययन लेखन सामग्री, गणवेश, खेलकूद व कम्प्यूटर की सुविधा उपलब्ध कराता है।"
 };
 
 export const UI_LABELS = {
@@ -98,96 +98,96 @@ export const NEWS_DATA: NewsItem[] = [
 export const FACILITIES_DATA: Facility[] = [
   {
     id: 1,
-    title: { en: "Smart Class (Digital Education)", hi: "डिजिटल शिक्षा (स्मार्ट क्लास)" },
-    description: { 
-      en: "Equipped with projectors, tablet labs, and computer labs. Khan Academy & Embibe learning.", 
-      hi: "प्रोजेक्टर, टैबलेट लैब और कंप्यूटर लैब से सुसज्जित। खान अकादमी और एम्बाइब से शिक्षा।"
-    },
-    icon: <Monitor className="w-6 h-6" />,
-    image: "https://picsum.photos/id/1/800/600"
-  },
-  {
-    id: 2,
-    title: { en: "Morning Yoga & Prayer", hi: "सुबह का योग और प्रार्थना" },
+    title: { en: "Morning Yoga & Prayer", hi: "प्रात: कालीन योगा एवं प्रार्थना स्थल" },
     description: {
-      en: "Daily activities include prayers, poems, news, and physical training.",
-      hi: "दैनिक गतिविधियों में प्रार्थना, कविता, समाचार और शारीरिक प्रशिक्षण शामिल हैं।"
+      en: "Daily activities include different prayers, poems, stories, news, and physical training at the morning yoga and prayer venue.",
+      hi: "विद्यालय के प्रात: कालीन योगा एवं प्रार्थना स्थल पर प्रतिदिन अलग-2 प्रार्थना, कविता, कहानी, समाचार एवं पी०टी० कराई जाती है"
     },
     icon: <Activity className="w-6 h-6" />,
     image: "https://picsum.photos/id/73/800/600"
   },
   {
+    id: 2,
+    title: { en: "Smart Class (Digital Education)", hi: "डिजिटल शिक्षा (स्मार्ट क्लास)" },
+    description: { 
+      en: "Modern education via projectors, tablet labs, and computer labs. Khan Academy, Embibe, and Phoolwari Project included.", 
+      hi: "डिजिटल शिक्षा के अंतर्गत छात्राओं को प्रोजेक्टर, टैब लैब एवं कंप्यूटर लैब में आधुनिक शिक्षा प्रदान की जाती है। खान एकेडमी, एमबाइब, इंग्लिश लिट्रेसी प्रोग्राम संचालित।"
+    },
+    icon: <Monitor className="w-6 h-6" />,
+    image: "https://picsum.photos/id/1/800/600"
+  },
+  {
     id: 3,
-    title: { en: "Hostel Facilities", hi: "छात्रावास की सुविधा" },
+    title: { en: "Classrooms", hi: "कक्षाएँ" },
     description: {
-      en: "Residential school with separate hostels for girls. Capacity: 490.",
-      hi: "लड़कियों के लिए अलग छात्रावास के साथ आवासीय विद्यालय। क्षमता: 490।"
+      en: "Classrooms are well-ventilated, equipped with electricity, fans, and lights.",
+      hi: "कक्षाएं हवादार, विद्युत्, पंखे, बत्ती युक्त हैं।"
     },
     icon: <Home className="w-6 h-6" />,
-    image: "https://picsum.photos/id/129/800/600"
+    image: "https://picsum.photos/id/201/800/600"
   },
   {
     id: 4,
-    title: { en: "Mess Arrangements", hi: "भोजन व्यवस्था" },
+    title: { en: "Library", hi: "पुस्तकालय" },
     description: {
-      en: "Well-organized mess with nutritious food and fixed menu.",
-      hi: "पौष्टिक भोजन और निश्चित मेनू के साथ सुव्यवस्थित मेस।"
+      en: "A library is available to develop reading habits and enhance knowledge among students.",
+      hi: "छात्राओं में किताबे पढने की आदत को विकसित करने एवं ज्ञानवर्धन के लिए पुस्तकालय की व्यवस्था है"
     },
-    icon: <Utensils className="w-6 h-6" />,
-    image: "https://picsum.photos/id/429/800/600"
+    icon: <BookOpen className="w-6 h-6" />,
+    image: "https://picsum.photos/id/24/800/600"
   },
   {
     id: 5,
-    title: { en: "Laboratories", hi: "प्रयोगशालाएं" },
+    title: { en: "Laboratories", hi: "प्रयोगशाला" },
     description: {
-      en: "Biology, Physics, and Chemistry laboratories available.",
-      hi: "जीव विज्ञान, भौतिकी और रसायन विज्ञान प्रयोगशालाएँ उपलब्ध हैं।"
+      en: "The school has biology, physics, and chemistry laboratories.",
+      hi: "विद्यालय में जीव विज्ञान, भौतिक विज्ञान, रसायन विज्ञान प्रयोगशाला की व्यवस्था है।"
     },
     icon: <FlaskConical className="w-6 h-6" />,
     image: "https://picsum.photos/id/20/800/600"
   },
   {
     id: 6,
-    title: { en: "Library", hi: "पुस्तकालय" },
+    title: { en: "Hostel Facilities", hi: "आवासीय व्यवस्था" },
     description: {
-      en: "Available to develop reading habits and enhance knowledge.",
-      hi: "पढ़ने की आदत विकसित करने और ज्ञान बढ़ाने के लिए उपलब्ध।"
+      en: "Residential school with separate hostels for girls with a total capacity of 490.",
+      hi: "विद्यालय का स्वरूप आवासीय होने के कारण विद्यालय में निर्मित छात्रावास पृथक रूप से बालिकाओं के लिए उपलब्ध है। छात्रावास की कुल क्षमता 490 हैं।"
     },
-    icon: <BookOpen className="w-6 h-6" />,
-    image: "https://picsum.photos/id/24/800/600"
+    icon: <Home className="w-6 h-6" />,
+    image: "https://picsum.photos/id/129/800/600"
   },
   {
     id: 7,
-    title: { en: "Health Checkup", hi: "स्वास्थ्य परीक्षण" },
+    title: { en: "Mess Arrangements", hi: "मेस व्यवस्था" },
     description: {
-      en: "Periodic health checkup camps organized by Community Health Center.",
-      hi: "सामुदायिक स्वास्थ्य केंद्र द्वारा समय-समय पर स्वास्थ्य परीक्षण शिविर।"
+      en: "Well-organized mess with fixed menu and mess committee to ensure quality.",
+      hi: "विद्यालय में निर्धारित मेन्यू के अनुसार सुव्यवस्थित मेस व्यवस्था सुनिश्चित है। मेस कमेटी द्वारा शुद्ध एवं पौष्टिक भोजन की व्यवस्था।"
     },
-    icon: <HeartPulse className="w-6 h-6" />,
-    image: "https://picsum.photos/id/338/800/600"
+    icon: <Utensils className="w-6 h-6" />,
+    image: "https://picsum.photos/id/429/800/600"
   },
   {
     id: 8,
-    title: { en: "Environment", hi: "पर्यावरण" },
+    title: { en: "Health Checkup", hi: "स्वास्थ्य परीक्षण" },
     description: {
-      en: "Tree plantation and Cleanliness Campaigns.",
-      hi: "वृक्षारोपण एवं स्वच्छता अभियान।"
+      en: "Periodic health checkup camps organized by the Community Health Center.",
+      hi: "विद्यालय में सामुदायिक स्वास्थ्य केंद्र पुंवारका द्वारा छात्राओं के स्वास्थ्य परीक्षण हेतु समय समय पर शिविर लगाया जाता है"
     },
-    icon: <TreePine className="w-6 h-6" />,
-    image: "https://picsum.photos/id/1047/800/600"
+    icon: <HeartPulse className="w-6 h-6" />,
+    image: "https://picsum.photos/id/338/800/600"
   }
 ];
 
 export const STAFF_DATA: StaffMember[] = [
-  { id: 1, name: { en: "Dr. Madhu Rani", hi: "डॉ. मधु रानी" }, designation: { en: "In-charge Principal", hi: "प्रभारी प्रधानाचार्य" }, subject: { en: "Sociology", hi: "समाजशास्त्र" } },
-  { id: 2, name: { en: "Mrs. Bhavna Madan", hi: "श्रीमती भावना मदान" }, designation: { en: "Lecturer", hi: "प्रवक्ता" }, subject: { en: "", hi: "" } },
-  { id: 3, name: { en: "Mr. Arvind Rai", hi: "श्री अरविंद राय" }, designation: { en: "Lecturer", hi: "प्रवक्ता" }, subject: { en: "", hi: "" } },
-  { id: 4, name: { en: "Mrs. Nidhi Rana", hi: "श्रीमती निधि राणा" }, designation: { en: "Lecturer", hi: "प्रवक्ता" }, subject: { en: "", hi: "" } },
-  { id: 5, name: { en: "Ms. Anju", hi: "सुश्री अंजू" }, designation: { en: "Lecturer", hi: "प्रवक्ता" }, subject: { en: "", hi: "" } },
-  { id: 6, name: { en: "Mrs. Manu", hi: "श्रीमती मनु" }, designation: { en: "Assistant Teacher", hi: "सहायक अध्यापक" }, subject: { en: "", hi: "" } },
-  { id: 7, name: { en: "Mrs. Kavita", hi: "श्रीमती कविता" }, designation: { en: "Assistant Teacher", hi: "सहायक अध्यापक" }, subject: { en: "", hi: "" } },
-  { id: 8, name: { en: "Mrs. Aarti Mahajan", hi: "श्रीमती आरती महाजन" }, designation: { en: "Assistant Teacher", hi: "सहायक अध्यापक" }, subject: { en: "", hi: "" } },
-  { id: 9, name: { en: "Mrs. Neha Devi", hi: "श्रीमती नेहा देवी" }, designation: { en: "Assistant Teacher", hi: "सहायक अध्यापक" }, subject: { en: "", hi: "" } }
+  { id: 1, name: { en: "Dr. Madhu Rani", hi: "डॉ मधु रानी" }, designation: { en: "In-charge Principal", hi: "प्र० प्रधानाचार्य" }, subject: { en: "Sociology", hi: "समाजशास्त्र" } },
+  { id: 2, name: { en: "Mrs. Bhavna Madan", hi: "श्रीमती भावना मदान" }, designation: { en: "Lecturer", hi: "प्रवक्ता" }, subject: { en: "Economics", hi: "अर्थशास्त्र" } },
+  { id: 3, name: { en: "Mr. Arvind Rai", hi: "श्री अरविन्द राय" }, designation: { en: "Lecturer", hi: "प्रवक्ता" }, subject: { en: "Hindi", hi: "हिंदी" } },
+  { id: 4, name: { en: "Mrs. Nidhi Rana", hi: "श्रीमती निधि राणा" }, designation: { en: "Lecturer", hi: "प्रवक्ता" }, subject: { en: "History", hi: "इतिहास" } },
+  { id: 5, name: { en: "Ms. Anju", hi: "कु० अंजू" }, designation: { en: "Lecturer", hi: "प्रवक्ता" }, subject: { en: "Biology", hi: "जीव विज्ञान" } },
+  { id: 6, name: { en: "Mrs. Manu", hi: "श्रीमती मनु" }, designation: { en: "Assistant Teacher", hi: "सहायक अध्या०" }, subject: { en: "Hindi", hi: "हिंदी" } },
+  { id: 7, name: { en: "Mrs. Kavita", hi: "श्रीमती कविता" }, designation: { en: "Assistant Teacher", hi: "सहायक अध्या०" }, subject: { en: "Social Science", hi: "सामा० विज्ञान" } },
+  { id: 8, name: { en: "Mrs. Aarti Mahajan", hi: "श्रीमती आरती महाजन" }, designation: { en: "Assistant Teacher", hi: "सहायक अध्या०" }, subject: { en: "English", hi: "अंग्रेजी" } },
+  { id: 9, name: { en: "Mrs. Neha Devi", hi: "श्रीमती नेहा देवी" }, designation: { en: "Assistant Teacher", hi: "सहायक अध्या०" }, subject: { en: "Art", hi: "कला" } }
 ];
 
 export const FACULTY_STREAMS: FacultyStream[] = [
