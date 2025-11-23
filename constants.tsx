@@ -18,9 +18,9 @@ export const DEFAULT_SITE_CONFIG: SiteConfig = {
   phone: "+91 123 456 7890",
   email: "contact@rapv-punwarka.in",
   heroImages: [
-    "https://picsum.photos/id/202/1920/1080",
-    "https://picsum.photos/id/237/1920/1080",
-    "https://picsum.photos/id/129/1920/1080"
+    "https://picsum.photos/id/20/1920/1080",
+    "https://picsum.photos/id/175/1920/1080",
+    "https://picsum.photos/id/1060/1920/1080"
   ],
   aboutImage: "https://picsum.photos/id/237/600/800",
   logo: ""
